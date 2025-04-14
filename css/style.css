@@ -472,6 +472,7 @@ a:focus {
   min-width: 130px;
   -ms-flex-preferred-size: 26%;
       flex-basis: 26%;
+  padding: 5% 20% 0 20%;
 }
 
 .category_section .category_container .box .img-box {
