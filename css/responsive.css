@@ -1,16 +1,14 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+  
+  .img-storyset{
+    width: 500px;
+  }
+}
 
 @media (max-width: 992px) {
   .hero_area {
     height: auto;
   }
-
-  #navbarSupportedContent {
-    opacity: 1;
-    transform: none;
-    margin-top: 15px;
-  }
-
 
   .navbar-toggler {
     padding: 0.25rem 0;
@@ -125,6 +123,16 @@
   }
 
 
+  #collapseOne, #collapseTwo, #collapseThree, #collapseFour{
+    visibility: hidden;
+    display: none;
+    height: 0px;
+  }
+
+  .img-storyset{
+    max-width: 400px;
+    margin: auto;
+  }
 
 }
 
@@ -179,6 +187,11 @@
 
   .freelance_section .tab_container .t-link-box .detail-box h3 {
     font-size: 22px;
+  }
+
+  .img-storyset{
+    max-width: 300px;
+    margin: auto;
   }
 }
 
